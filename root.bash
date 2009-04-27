@@ -1,5 +1,5 @@
 function a { 
-while [ ! -d .git ]
+while [ ! -d .git -a `pwd` != "/" ]
 do
     cd ".."; 
 done
