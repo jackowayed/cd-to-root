@@ -33,3 +33,9 @@ Speaking of which,
 h3. Bugs
 
 If you have a bug, feature request, suggestion, etc. please file an issue. (Click the issues tab above.) Or you can fork it and implement it yourself. Just send a pull request, and I'll probably be happy to merge it in. 
+
+h2. License
+
+Copyright (c) Daniel Jackoway 2009
+
+This project is released under the MIT License. See <code>COPYING</code> for the full text. 
