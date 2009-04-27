@@ -1,0 +1,35 @@
+h1. CD To Root
+
+h2. What?
+
+This is an easy way to cd to the root of your project. I found that I frequently was typing things like <code>cd ../../..</code> after delving into my project and wanting to get back to the root. 
+
+Currently, a project root is a directory with a <code>.git/</code> directory in it, but I'd like to make it more comprehensive soon. (At least it will probably also look for a <code>.this_is_a_root_directory</code> type file so that you can manually make a project be a project according to this.)
+
+h2. Usage
+
+At a command line, type:
+
+<pre><code>$ a</code></pre>
+
+Yep, that's it. Just "a".
+
+h2. Install
+
+Download the root.bash file, and add
+
+<pre><code>source /path/to/root.bash</code></pre>
+
+to your <code>.bashrc</code> file.
+
+h2. Future, Bugs, Etc
+
+h3. Future
+
+As I said above, I want to make the definition of a root directory better. At the least, I'll give some easy way to manually say "this is a root directory," but I may come up with a few more ways to automatically detect a lot of cases. If you have an idea of a good general case, either file an issue or fork it, implement it, and send a pull request. 
+
+Speaking of which, 
+
+h3. Bugs
+
+If you have a bug, feature request, suggestion, etc. please file an issue. (Click the issues tab above.) Or you can fork it and implement it yourself. Just send a pull request, and I'll probably be happy to merge it in. 
