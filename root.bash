@@ -2,7 +2,7 @@
 # released under the MIT License
 # see COPYING for the full text
 function a { 
-while [ ! -d .git -a `pwd` != "/" ]
+while [ ! -d .git -a ! -f '.this_is_root' -a `pwd` != "/" ]
 do
     cd ".."; 
 done
