@@ -31,16 +31,16 @@ Download the root.bash file, and add
 to your <code>.bashrc</code> file.
 
 h2. Future, Bugs, Etc
-(At least it will probably also look for a <code>.this_is_a_root_directory</code> type file so that you can manually make a project be a project according to this.)
+
 h3. Future
 
-As I said above, I want to make the definition of a root directory better. At the least, I'll give some easy way to manually say "this is a root directory," but I may come up with a few more ways to automatically detect a lot of cases. If you have an idea of a good general case, either file an issue or fork it, implement it, and send a pull request. 
+As I said above, I want to make the definition of a root directory better. I implemented the </code>.this_is_root</code> files to manually set it, but I want to come up with a few more ways to automatically detect a lot of cases. If you have an idea of a good general case, either file an issue or fork it, implement it, and send a pull request. 
 
 Speaking of which, 
 
 h3. Bugs
 
-If you have a bug, feature request, suggestion, etc. please file an issue. (Click the issues tab above.) Or you can fork it and implement it yourself. Just send a pull request, and I'll probably be happy to merge it in. 
+If you have a bug, feature request, suggestion, etc. please file an issue. (Go to the "issues tab":http://github.com/jackowayed/cd-to-root/issues on the GitHub repo.) Or you can fork it and implement it yourself. Just send a pull request, and I'll probably be happy to merge it in. 
 
 h2. License
 
